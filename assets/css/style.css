@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -135,4 +136,23 @@ hr {
 .meet {
     background-image: url(../img/bg-quote.jpg);
     height: 900px;
+}
+
+.title-meet {
+    color: white;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.btn-meet {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+    height: 50px;
+    width: 180px;
+}
+
+.title-btn {
+    font-weight: bold
 }
