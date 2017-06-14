@@ -54,14 +54,14 @@
 
 .icon-wrapper {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border: 2px solid white;
     cursor: pointer;
 }
 
 .icon {
-    margin-left: 15%;
+    margin-left: 18%;
     color: white;
     margin-right: 20px;
 }
@@ -70,4 +70,69 @@
     display: flex;
     justify-content: center;
     margin-top: 350px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* Estilos our values */
+
+.line {
+    border-color: #C2B49A;
+}
+
+hr {
+    max-width: 100px;
+    height: 2px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-values {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.icon-values {
+    margin-top: 20px;
+}
+
+.title-value {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.icon-values {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.icon-two {
+    margin-top: 10px;
+    margin-left: -6px
+}
+
+.icon-three {
+    margin-top: 10px;
+    margin-left: -2px
+}
+
+
+/* Section Meet */
+
+.meet {
+    background-image: url(../img/bg-quote.jpg);
+    height: 900px;
 }
