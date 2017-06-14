@@ -289,3 +289,31 @@ hr {
 .btn-subscribe {
     height: 50px;
 }
+
+
+/* section hours */
+
+.white {
+    color: white;
+}
+
+#hours {
+    background-image: url(../img/bg-pricing.jpg);
+    height: 800px;
+}
+
+.content-hours {
+    margin-bottom: 40px;
+}
+
+.btn-hour {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
