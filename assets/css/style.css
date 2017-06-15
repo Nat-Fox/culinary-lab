@@ -234,9 +234,10 @@ hr {
 
 /* section press */
 
-.testimonial {
-    margin-top: 1500px;
-}
+
+/*.testimonial {
+    margin-top: 2000px;
+}*/
 
 .circle-img {
     height: 50px;
@@ -316,4 +317,36 @@ hr {
 
 .bold {
     font-weight: bold;
+}
+
+
+/* section menu */
+
+.detail-menu {
+    margin-bottom: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.circle-two {
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    margin-right: 10px
+}
+
+.content-circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
