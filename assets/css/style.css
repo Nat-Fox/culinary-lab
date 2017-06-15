@@ -3,8 +3,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
@@ -70,7 +74,9 @@
 .icon-content {
     display: flex;
     justify-content: center;
-    margin-top: 350px;
+    margin-top: 65%;
+    position: absolute;
+    width: 100%;
 }
 
 .center {
@@ -105,6 +111,7 @@ hr {
 .title-value {
     font-weight: bold;
     font-size: 30px;
+    text-align: left
 }
 
 .title {
@@ -118,6 +125,7 @@ hr {
     height: 50px;
     border: 2px solid black;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .icon-two {
@@ -128,6 +136,10 @@ hr {
 .icon-three {
     margin-top: 10px;
     margin-left: -2px
+}
+
+ul li {
+    text-align: justify
 }
 
 
@@ -238,6 +250,10 @@ hr {
 /*.testimonial {
     margin-top: 2000px;
 }*/
+
+.lorem-test {
+    margin-bottom: 30px;
+}
 
 .circle-img {
     height: 50px;
@@ -361,13 +377,13 @@ hr {
 }
 
 .title-footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 30px;
 }
 
 footer {
     background-image: url(../img/bg-footer.jpg);
     height: 600px;
+    margin-top: -11px;
 }
 
 .margin-top {
@@ -394,4 +410,15 @@ footer p {
 .icon-redes-footer {
     margin-right: 20px;
     margin-bottom: 150px;
+}
+
+.navbar-color {
+    width: 100%;
+    height: 78px;
+    background: black;
+    color: black;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
 }
