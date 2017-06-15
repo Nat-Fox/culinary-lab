@@ -332,7 +332,8 @@ hr {
     width: 10px;
     height: 10px;
     margin-top: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .circle-two {
@@ -342,11 +343,55 @@ hr {
     width: 10px;
     height: 10px;
     margin-top: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .content-circle {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+
+/* footer */
+
+#pre-footer {
+    background-color: #212121;
+}
+
+.title-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: url(../img/bg-footer.jpg);
+    height: 600px;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.span-footer {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.icon-footer {
+    margin-right: 5px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.fa-lg {
+    line-height: 1.75em;
+}
+
+.icon-redes-footer {
+    margin-right: 20px;
+    margin-bottom: 150px;
 }
